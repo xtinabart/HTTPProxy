@@ -9,7 +9,7 @@ This project is a simple HTTP proxy server written in C. It was developed for a 
 - Returns a proper `404` response for unsupported or malformed requests
 - Demonstrates understanding of TCP socket communication and HTTP basics in C
 
-## 🗂 Files
+## Files
 
 | File               | Description                                                  |
 |--------------------|--------------------------------------------------------------|
@@ -19,9 +19,9 @@ This project is a simple HTTP proxy server written in C. It was developed for a 
 | `service-httpproxy` | Provided test server used to simulate destination behavior   |
 | `README.md`         | You're reading it :)                                         |
 
-> ⚠️ The `mongoose.*` files and `service-httpproxy` were provided for testing and are **not authored** by me. They are included for completeness and to support reproducibility of results.
+> The `mongoose.*` files and `service-httpproxy` were provided for testing and are **not authored** by me. They are included for completeness and to support reproducibility of results.
 
-## 🛠 Compilation
+## Compilation
 
 Use the provided `Makefile` to compile:
 
